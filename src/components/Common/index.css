@@ -1,0 +1,9 @@
+.pickview :global(.ant-cascader-menu){
+	height: 353px!important
+}
+.ant-cascader-menu {
+	height: 353px!important
+}
+.pickview :global(.ant-cascader-menu){
+	height: 353px
+}

@@ -1,0 +1,32 @@
+.tablebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: .95rem;
+    width: 100%;
+	background-color: rgb(238, 238, 238);
+	z-index: 10;
+}
+
+.tablebar a {
+    width: 100%;
+    font-size: .18rem;
+    text-align: center;
+    height: .95rem;
+    color: #000;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 5px;
+}
+a.current {
+    color: #F15246
+}
+a img {
+	width: .4rem;
+}

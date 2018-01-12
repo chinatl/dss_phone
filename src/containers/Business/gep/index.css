@@ -1,0 +1,75 @@
+.swiper {
+    height: 2.80rem;
+	background: url('../../../assets/images/bgtitle.png')no-repeat;
+	background-size: 6.4rem 2.7rem;
+    padding-top: 5px;
+
+}
+.swiper .li {
+    width: 5.15rem;
+    height: 2.50rem;
+    border-radius: 10px;
+    margin:0 auto;
+	background-color: #fff;
+	box-shadow: -3px -3px 3px #eee inset;
+}
+.title {
+    font:normal normal .38rem '微软雅黑';
+    color:#4B4B4D;
+    text-align: center;
+}
+.numer {
+    height: 1.8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.numer:before {
+    content: '';
+    height: .4rem;
+    background:url(../../../assets/images/shawon.png)no-repeat center top;
+	background-size: contain;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    opacity: .1;
+}
+.numer div {
+    float: left;
+    font-family: "微软雅黑";
+    width: 33%;
+    text-align: center;
+    text-align: center;
+}
+.littieNum {
+    font-size: .35rem;
+    color:#F15146;
+}
+.littieNum p:nth-of-type(2){
+    font-size: .18rem;
+    color:#999999;
+}
+.bigNum {
+    font-size: .7rem;
+    font-weight: bold;
+    color:#F15146;
+}
+.bigNum p:nth-of-type(2){
+    font-size: .22rem;
+    font-weight: normal;
+    color:#4B4B4D;
+}
+.item {
+    height: .4rem;
+    font: normal normal .22rem/.4rem '微软雅黑';
+    color: #4B4B4D;
+    background-color: red;
+    padding-left: .18rem;
+}
+.danwei {
+    font: normal normal .18rem/.4rem '微软雅黑';
+    padding-left: .30rem;
+
+}

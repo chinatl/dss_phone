@@ -1,0 +1,35 @@
+.tablebar {
+	height: .6rem;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: .2rem;
+	background-color: #ccc;
+	line-height:.6rem;
+}
+.tablebar .title  {
+	overflow:hidden;
+	margin: 10px 0;
+}
+.tablebar .title li{
+	float: left;
+	line-height: .6rem;
+	margin-right: .1rem;
+}
+.container {
+	width: 6rem;
+	overflow-x: scroll;
+	height: 200px;
+	margin: 0 auto;
+}
+.container ul {
+	width: 10rem;
+	height: 40px;
+}
+.container ul li {
+	float: left;
+	border-right: 1px solid #ccc;
+	padding: 4px;
+	white-space: nowrap;
+}

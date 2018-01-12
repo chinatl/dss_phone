@@ -1,0 +1,10 @@
+.title {
+	color: #fff;
+}
+.container {
+	width: 6.40rem;
+}
+.box {
+/*	width: 800px;*/
+	overflow:auto;
+}

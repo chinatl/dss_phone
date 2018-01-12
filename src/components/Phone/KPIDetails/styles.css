@@ -1,0 +1,13 @@
+
+.KPIDetails :global(.ant-card-head) {
+  border-bottom: 0px;
+}
+
+.KPIDetails table {
+  border-collapse: collapse;
+}
+
+.KPIDetails :global(.ant-table-thead) {
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+

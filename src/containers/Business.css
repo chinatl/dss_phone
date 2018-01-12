@@ -1,0 +1,42 @@
+.item {
+    width: 100%;
+    background-color: #fff;
+	overflow: hidden;
+}
+
+.item li {
+    float: left;
+    width: 25%;
+	height: 1.6rem;
+	text-align: center;
+}
+
+.item li a {
+    display: block;
+    font-size: .20rem;
+    color: #000;
+    width: 100%;
+    height: 1.6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 12px 0;
+}
+.normalItem>span{
+	display: inline-block;
+	border-width: 8px;
+	border-style: solid;
+	float: right;
+}
+.normalItem span.left {
+	border-color: transparent transparent transparent #555;
+	margin-top: 0px;
+	margin-left: 6px;
+}
+.normalItem span.bottom {
+	border-color: #555 transparent transparent transparent;
+	margin-top: 6px;
+	margin-right: 4px;
+}

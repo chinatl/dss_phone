@@ -1,0 +1,10 @@
+.report {
+	height: 80px;
+	background: linear-gradient(to right, #fc6c64, #f04d48);
+	font-size: '16px';
+	color: '#fff';
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+}

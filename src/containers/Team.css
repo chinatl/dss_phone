@@ -1,0 +1,25 @@
+.item {
+    width: 100%;
+    height: 1.6rem;
+    background-color: #fff;
+}
+
+.item li {
+    float: left;
+    width: 25%;
+
+}
+
+.item li a {
+    display: block;
+    font-style: .20rem;
+    color: #000;
+    width: 100%;
+    height: 1.6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 12px 0;
+}

@@ -1,0 +1,77 @@
+.container {
+    padding: .1rem;
+    width: 100%;
+    background-color: #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.sheet {
+    height: .83rem;
+    width: 100%;
+    border-radius: 6px;
+    background-color: #F15145;
+    color: #fff;
+	margin-top: .15rem;
+}
+
+.push {
+    font-size: .25rem;
+    float: left;
+    margin-top: .1rem;
+    margin-left: .1rem;
+}
+
+.numer {
+    font-size: .49rem;
+    font-weight: bold;
+    float: right;
+    text-align: left;
+	margin-left: 10px;
+	text-align: right;
+}
+
+.numer span {
+    font-size: .25rem;
+    font-weight: normal;
+}
+.arrow {
+	float: right;
+	height: .83rem;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.arrow span{
+	display: inline-block;
+	border-width: 8px;
+	border-style: solid;
+}
+
+.arrow span.bottom {
+	border-color: #fff transparent transparent transparent;
+	margin-top: 6px;
+	margin-right: 4px;
+}
+.arrow span.left {
+	border-color: transparent transparent transparent #fff;
+	margin-top: 0px;
+	margin-left: 6px;
+}
+.charts {
+    background-color: #fff;
+	width: 100%;
+}
+
+.charts .more {
+    height: .44rem;
+    line-height: .44rem;
+    font-size: .18rem;
+    padding: 0 .12rem;
+}
+
+
